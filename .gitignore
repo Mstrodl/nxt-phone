@@ -1,4 +1,5 @@
 .cache
+tts
 dist
 .tern-port
 config.json
