@@ -1,0 +1,11 @@
+{
+  "name": "nxt-phone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mstrodl/nxt-phone",
+  "author": "Mary <ipadlover8322@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
