@@ -23,6 +23,6 @@ bot.on("messageReactionAdd", function(reaction, user) {
 });
 
 bot.on("message", async function(msg) {
-  if (msg.channel.id == CHANNEL_ID && msg.content.startsWith("r!tts "))
+  if (msg.content.startsWith("r!tts "))
     return msg.react("✅");
 });
