@@ -3,7 +3,7 @@ const cp = require("child_process");
 const Discord = require("discord.js");
 
 const MARY_ID = "196769986071625728";
-const CHANNEL_ID = "444928655320285195";
+const CHANNEL_ID = "423137608151859201";
 
 const bot = new Discord.Client();
 bot
@@ -12,7 +12,7 @@ bot
 
 bot.on("messageReactionAdd", function(reaction, user) {
   if (user.id != MARY_ID) return;
-  if (reaction.message.channel.id != CHANNEL_ID) return;
+  // if (reaction.message.channel.id != CHANNEL_ID) return;
   if (!reaction.message.content.startsWith("r!tts ")) return;
   const content =
     reaction.message.content.replace("r!tts ", "").replace(/\n/gm, " ") + "\n";
